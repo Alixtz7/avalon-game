@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>任務進行</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="roundText">第 1 局</div>
+
+    <div class="button-row" id="selectionButtons">
+        <button id="successButton">成功</button>
+        <button id="failButton">失敗</button>
+    </div>
+
+    <button id="confirmButton" disabled>確認</button>
+
+    <div id="passPrompt">請交給下一位玩家</div>
+    <button id="nextPlayerButton" style="display:none;">選擇</button>
+
+    <div id="resultText"></div>
+    <button id="revealButton" style="display:none;">任務結果</button>
+
+    <script src="js/mission.js"></script>
+</body>
+</html>

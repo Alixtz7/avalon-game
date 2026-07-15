@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.container {
+    padding: 40px 20px;
+    text-align: center;
+    max-height: 100%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+select {
+    white-space: pre-line;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 24px;
+}
+
+.button-group button {
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.role-list {
+    white-space: pre-line;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-top: 30px;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.role-container {
+      text-align: center;
+      padding: 24px;
+    }
+
+.player-label {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.role-text {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.role-container {
+    text-align: center;
+    padding: 24px;
+}
+
+.player-label {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.role-text {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}   
+
+#roundText {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 24px;
+}
+
+.button-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+#passPrompt {
+    font-size: 20px;
+    margin-bottom: 24px;
+    display: none;
+}
+
+#resultText {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+#guideText {
+        white-space: pre-line;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: left;
+        max-width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.button-play{
+    margin: 8px;
+    margin-top:20px;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+audio {
+    display: none;
+}

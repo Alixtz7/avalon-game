@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Avalon 阿瓦隆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Avalon<br>
+            <span class="subtitle">阿瓦隆</span>
+        </h1>
+
+        <label for="player-count">遊戲人數：</label>
+        <select id="player-count">
+            <option value="5">5 人</option>
+            <option value="6">6 人</option>
+            <option value="7">7 人</option>
+            <option value="8">8 人</option>
+            <option value="9">9 人</option>
+            <option value="10">10 人</option>
+        </select>
+
+        <div class="button-group">
+            <button onclick="startGame()">開始遊戲</button><br>
+            <button onclick="showRoleList()">角色列表</button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
